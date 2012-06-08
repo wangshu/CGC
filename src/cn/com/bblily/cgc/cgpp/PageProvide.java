@@ -4,8 +4,13 @@ import cn.com.bblily.cgc.core.PageBase;
 import cn.com.bblily.cgc.core.PageProvideBase;
 
 public class PageProvide extends PageProvideBase {
-    private final String hosturl="";
+    private final String hosturl="http://www.caoegg.cn/";
 	
+    public PageProvide()
+    {
+    	super();
+    }
+    
 	@Override
 	public PageBase getFirst() {
 		// TODO Auto-generated method stub
