@@ -1,3 +1,5 @@
 
-*.class
-*.bak
+*/*.class
+*/*.bak
+build/
+bin/
